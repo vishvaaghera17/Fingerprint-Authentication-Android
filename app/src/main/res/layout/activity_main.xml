@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practical No. 10"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnBiometric"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fingerprint Authentication" />
+
+        <Button
+            android:id="@+id/btnCallLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Call History" />
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select an option above."
+            android:textSize="16sp"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>
